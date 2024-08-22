@@ -20,8 +20,8 @@ USE `barbearia` ;
 CREATE TABLE IF NOT EXISTS `barbearia`.`barbeiro` (
   `idbarbeiro` INT NOT NULL AUTO_INCREMENT,
   `nome` VARCHAR(45) NOT NULL,
-  `CPF` INT NOT NULL,
-  `telefone` VARCHAR(45) NOT NULL,
+  `CPF` VARCHAR(20) NOT NULL,
+  `telefone` VARCHAR(25) NOT NULL,
   PRIMARY KEY (`idbarbeiro`))
 ENGINE = InnoDB;
 
